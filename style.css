@@ -40,3 +40,26 @@
 .buttons img:nth-child(2) {
   width: 80px;
 }
+
+@media (max-width: 600px) {
+  .stopwatch {
+    padding: 30px 15px;
+    margin: 100px auto;
+  }
+
+  .stopwatch h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .buttons {
+    gap: 20px;
+  }
+
+  .buttons img {
+    width: 50px !important;
+    margin: 10px 0;
+  }
+}
+
